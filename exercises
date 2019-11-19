@@ -1,0 +1,97 @@
+
+# =============================================================================
+# Exercise 1
+# =============================================================================
+print('Hello\n\tHello\n\t\tHellow')
+
+# =============================================================================
+# Exercise 2
+# =============================================================================
+print('Orange Academy\n' * 20)
+
+# =============================================================================
+# Exercise 3
+# =============================================================================
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+print(x,y,z,w,sep='10')
+
+# =============================================================================
+# Exercise 4
+# =============================================================================
+
+two_values = eval(input('Enter your two numbers, seperated by spaces.'))
+print(two_values[0] * two_values[1])
+
+# =============================================================================
+# Exercise 5
+# =============================================================================
+
+five_values = eval(input('Enter your two numbers, seperated by spaces.'))
+print(sum(five_values * len(five_values)))
+
+# =============================================================================
+# Exercise 6
+# Output is :- <class 'int'> <class 'float'> <class 'complex'> <class 'str'> <class 'bool'>
+# =============================================================================
+
+# =============================================================================
+# Exercise 7     
+# output is :- 'x1' is not defined
+# =============================================================================
+
+#Exercise 8
+# 5x = 10 => Variables' names should not start with numbers 
+# X+q$ = 'Orange' => Variables' names should not contain Special characters 
+# A B = 14 => Variables' names should not contain spaces
+# Function print() is lowercase 'p' not 'P', so it would be considered undefined
+print('EXERSICE 8')
+print("""5x = 10 => starts with a number
+print(5x) => invalid vaiable name
+X_q$ = 'Orange' => contains special character
+print(X_q$) => invalid variable name
+A B = 14 => contains a space
+print(A B) => invalid variable name
+Print('10' * 10) => print() is all small letters""")
+print('\n\n')
+
+
+# =============================================================================
+# Exercise 9
+# The output would be Orange, 1, undefined, -10
+# =============================================================================
+
+# =============================================================================
+# Exercise 10
+# 5x = 10 => Variables' names should not start with numbers 
+# X+q$ = 'Orange' => Variables' names should not contain Special characters 
+# A B = 14 => Variables' names should not contain spaces
+# Function print() is lowercase 'p' not 'P', so it would be considered undefined
+# =============================================================================
+
+# =============================================================================
+# Exercise 11
+# The output would be 'Cheers, Mate!
+# =============================================================================
+
+
+# =============================================================================
+# Exercise 12
+# =============================================================================
+this_year = 2019
+your_age = eval(input('Enter your name and age, seperated by spaces.'))
+print(this_year - your_age[1] + 100)
+
+# =============================================================================
+# Exercise 13
+# =============================================================================
+values = eval(input('Enter the base and the height with comma.'))
+print(0.5 * values[0] * values[1])
+
+
+# =============================================================================
+# Exercise 14
+# The output is :- 14, 8, 33, 3.666665, 3, 2, 11, 11, 11.0, (3,2), 1331, 1331, True, False, True
+# =============================================================================
